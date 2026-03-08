@@ -1,0 +1,73 @@
+# ============================================================
+# VerifiNews - .gitignore
+# ============================================================
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ---------- Virtual Environments ----------
+venv/
+env/
+.venv/
+ENV/
+
+# ---------- Environment / Secrets ----------
+.env
+
+# ---------- IDE / Editor ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ---------- OS Files ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Model Files (large) ----------
+*.sav
+*.pkl
+*.h5
+
+# ---------- Logs ----------
+*.log
+
+# ---------- Misc ----------
+*.bak
+*.tmp
+*.lnk
+
+# ---------- Distribution / Packaging ----------
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+
+# ---------- Jupyter Notebook ----------
+.ipynb_checkpoints/
+
+# ---------- Logs ----------
+*.log
+
+# ---------- Environment Variables ----------
+.env
+.env.local
+.env.production
+
+# ---------- Misc ----------
+*.bak
+*.tmp
+*.temp
+*.cache
